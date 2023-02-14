@@ -33,7 +33,7 @@ header h2 {
 
 header img {
     float: left;
-    margin-left: 3em;
+    margin: 3em 2em 1.5em;
 }
 
 .shadow {
