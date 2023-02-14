@@ -33,7 +33,7 @@ header h2 {
 
 header img {
     float: left;
-    margin: auto;
+    margin-left: 15px;
 }
 
 .shadow {
