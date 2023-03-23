@@ -44,6 +44,7 @@ aside ul{
 footer {
     clear: both;
     border-top: 2px solid blue;
+    text-align: center;
 }
 /* header {
     border-bottom: 2px solid blue;
