@@ -25,3 +25,14 @@ aside{
 aside ul{
     list-style-type: square;
 }
+
+p.fixed {
+    width: auto;
+    position: fixed;
+    bottom: 35%;
+    right: 0;
+    border: 3px solid darkgreen;
+    background-color: lightgreen;
+    padding: 2em;
+
+}
