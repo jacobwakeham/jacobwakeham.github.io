@@ -21,6 +21,9 @@ article {
     column-gap: 2em;
     margin-left: 2em;
 }
+article h1{
+    column-span: all;
+}
 aside{
     width: 20%;
     position: fixed;
