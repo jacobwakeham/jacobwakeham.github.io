@@ -31,8 +31,8 @@ p.fixed {
     position: fixed;
     bottom: 35%;
     right: 0;
-    border: 3px solid darkgreen;
-    background-color: lightgreen;
+    border: 3px solid blue;
+    background-color: lightskyblue;
     padding: 2em;
 
 }
