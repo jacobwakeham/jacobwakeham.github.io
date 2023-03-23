@@ -22,7 +22,7 @@ article {
     margin-left: 2em;
 }
 
-aside{
+aside ol {
     list-style-type: upper-roman;
 }
 
@@ -38,5 +38,9 @@ p.fixed {
     border: 3px solid blue;
     background-color: lightskyblue;
     padding: 2em;
+}
 
+footer {
+    clear: both;
+    border-top: 2px solid blue;
 }
