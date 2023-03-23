@@ -15,7 +15,11 @@
 #nav_menu ul li a.current { color: yellow; }
 
 article {
-    clear: left;
+    width: 75%;
+    column-count: 3;
+    column-rule: 2px dotted blue;
+    column-gap: 2em;
+    margin-left: 2em;
 }
 
 aside{
