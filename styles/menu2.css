@@ -1,5 +1,17 @@
-#nav_menu ul { list-style-type: none; }
-#nav_menu ul li { float: left; }
+body {
+    width: 95%;
+    margin: 15px auto;
+}
+
+nav {
+    padding-bottom: 4em;
+    border-bottom: 2px solid blue;
+}
+
+#nav_menu ul { 
+    list-style-type: none; 
+}
+#nav_menu ul li {  float: left; }
 #nav_menu ul li a {
     text-align: center;
     display: block;
@@ -14,7 +26,6 @@
 #nav_menu ul li a.lastitem { border-right: none; }	
 #nav_menu ul li a.current { color: yellow; }
 
-
 article {
     width: 75%;
     column-count: 3;
@@ -22,9 +33,19 @@ article {
     column-gap: 2em;
     margin-left: 2em;
 }
+
 article h1{
     column-span: all;
 }
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: blue;
+}
+
 aside{
     width: 20%;
     position: fixed;
@@ -34,6 +55,7 @@ aside{
     background-color: lightblue;
     padding: 20px;
 }
+
 aside ol {
     list-style-type: upper-roman;
 }
@@ -45,10 +67,8 @@ footer {
     clear: both;
     border-top: 2px solid blue;
     text-align: center;
+    font-size: 14px;
 }
-/* header {
-    border-bottom: 2px solid blue;
-} */
 
 p:first-letter {
     font-size: 1.2em;
