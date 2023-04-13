@@ -91,9 +91,6 @@
 text-decoration: none;  color: white;
     }
 
-    .menu {
-        align-self: hover; align-self: .current; text-decoration: underline;
-    }
 
     article {
         padding: 01em;
