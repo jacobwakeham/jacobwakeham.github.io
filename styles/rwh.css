@@ -149,7 +149,7 @@ margin: auto; display: block; width: 100%; max-width: 760px;
     .menu > li:not(:last-child) {
         border-bottom: 1px solid #444;
     }
-     article h2 {
+     article h3 {
 font-size: 1.1em;
      }
 
