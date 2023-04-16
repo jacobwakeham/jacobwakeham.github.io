@@ -46,15 +46,20 @@
                 title="Must be 999-999-999 format"
                 autocomplete="on"><br>
                 Style:<br>
+        </fieldset>  
+        <fieldset>
             <select id="style_and_size">
-                 <optgroup label="Membership Info">
-                    <option value="1">Junior</option>
-                    <option value="2">Regular</option>
-                    <option value="4">Charter</option>
-                 </optgroup>
-            </select>
+                <optgroup label="Membership Type">
+                   <option value="1">Junior</option>
+                   <option value="2">Regular</option>
+                   <option value="4">Charter</option>
+                </optgroup>
+                <label for="Date">Date:</label>
+        <input type="text" name="date" id="date"
+            required autocomplete="on"><br>        
 
-        </fieldset>       
+           </select>
+        </fieldset>     
         </form>
 </body>
 </html>
