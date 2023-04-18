@@ -42,7 +42,7 @@ html, body {
         padding: 10px;
     }
 
-    table.third th, caption.cap {
+    table.third th, caption.cap{
     font-weight: bolder;
     text-align: left;
     padding: 10px;
@@ -50,7 +50,7 @@ html, body {
     background-color: lightgreen;
     }
 
-    table.third thead tr:first-child, caption.cap {
+    table.third thead tr:first-child, caption.cap{
         border-bottom: 3px solid orangered;
     }
 
