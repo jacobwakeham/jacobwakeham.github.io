@@ -41,3 +41,31 @@ html, body {
         font-size: 15px;
         padding: 10px;
     }
+
+    table.third th, caption.cap {
+    font-weight: bolder;
+    text-align: left;
+    padding: 10px;
+    text-align: center;
+    background-color: lightgreen;
+    }
+
+    table.third thead tr:first-child, caption.cap {
+        border-bottom: 3px solid orangered;
+    }
+
+    table.third caption {
+        border-top: 3px solid orangered;
+    }
+
+    table.third tbody td, caption.cap {
+        padding: 10px;
+
+        vertical-align: top;
+    }
+
+    table.third body{
+        border-bottom: 2px solid orangered;
+    }
+    
+
