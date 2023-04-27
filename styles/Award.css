@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background-color: rgb(59,59,196);
+}
+form{
+    height: 75%; /* set the form height to 75% of the page*/
+    background-color: white; /* set the background color of the form to white */
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    font-size: 4em;
+    font-family: serif;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 5px solid darkorange;
+    border-radius: 5px;
+}
