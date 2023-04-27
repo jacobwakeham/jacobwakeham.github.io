@@ -22,3 +22,10 @@ form {
     border: 5px solid darkorange;
     border-radius: 5px;
 }
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
